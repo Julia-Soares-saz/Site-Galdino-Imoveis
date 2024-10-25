@@ -30,12 +30,12 @@ const images = [
     ['casa27foto1.jpg', 'img/casa27foto2.jpg', 'img/casa27foto3.jpg', 'img/casa27foto4.jpg', 'img/casa27foto5.jpg'],
     ['casa28foto1.jpg', 'img/casa28foto2.jpg', 'img/casa28foto3.jpg', 'img/casa28foto4.jpg', 'img/casa28foto5.jpg', 'img/casa28foto6.jpg', 'img/casa28foto7.jpg', 'img/casa28foto8.jpg', 'img/casa28foto9.jpg'],
     ['casa29foto1.jpg', 'img/casa29foto2.jpg', 'img/casa29foto3.jpg', 'img/casa29foto4.jpg', 'img/casa29foto5.jpg'],
-    ['condominiosfoto1.jpg', 'img/condominiosfoto2.jpg', 'img/condominiosfoto3.jpg'],
-    ['praia1foto1.jpg', 'img/praia1foto2.jpg', 'img/praia1foto3.jpg', 'img/praia1foto4.jpg', 'img/praia1foto5.jpg', 'img/praia1foto6.jpg', 'img/praia1foto7.jpg', 'img/praia1foto8.jpg', 'img/praia1foto9.jpg', 'img/praia1foto10.jpg'],
-    ['praiav1foto1.jpg', 'img/praia1vfoto2.jpg', 'img/praiav1foto3.jpg', 'img/praiav1foto4.jpg', 'img/praiav1foto5.jpg', 'img/praiav1foto6.jpg', 'img/praiav1foto7.jpg', 'img/praiav1foto8.jpg', 'img/praiav1foto9.jpg', 'img/praiav1foto10.jpg', 'img/condominiovfoto1.jpg','img/condominiovfoto2.jpg','img/condominiovfoto3.jpg','img/condominiovfoto4.jpg','img/condominiovfoto5.jpg'],
-    ['praiav2foto1.jpg', 'img/praiav2foto2.jpg', 'img/praiav2foto3.jpg', 'img/praiav2foto4.jpg', 'img/praiav2foto5.jpg', 'img/praiav2foto6.jpg', 'img/praiav2foto7.jpg', 'img/praiav2foto8.jpg', 'img/praiav2foto9.jpg', 'img/praiav2foto10.jpg', 'img/praiav2foto11.jpg', 'img/praiav2foto12.jpg', 'img/condominiovfoto1.jpg','img/condominiovfoto2.jpg','img/condominiovfoto3.jpg','img/condominiovfoto4.jpg','img/condominiovfoto5.jpg'],
-    ['praiav3foto1.jpg', 'img/praiav3foto2.jpg', 'img/praiav3foto3.jpg', 'img/praiav3foto4.jpg', 'img/praiav3foto5.jpg', 'img/praiav3foto6.jpg', 'img/praiav3foto7.jpg', 'img/praiav3foto8.jpg', 'img/condominiovfoto1.jpg','img/condominiovfoto2.jpg','img/condominiovfoto3.jpg','img/condominiovfoto4.jpg','img/condominiovfoto5.jpg'],
-    ['praiav4foto1.jpg', 'img/praiav4foto2.jpg', 'img/praiav4foto3.jpg', 'img/praiav4foto4.jpg', 'img/condominiovfoto1.jpg','img/condominiovfoto2.jpg','img/condominiovfoto3.jpg','img/condominiovfoto4.jpg','img/condominiovfoto5.jpg'],
+    ['condominiosfoto1.jpg', 'condominiosfoto2.jpg', 'condominiosfoto3.jpg'],
+    ['praia1foto1.jpg', 'praia1foto2.jpg', 'praia1foto3.jpg', 'praia1foto4.jpg', 'praia1foto5.jpg', 'praia1foto6.jpg', 'praia1foto7.jpg', 'praia1foto8.jpg', 'img/praia1foto9.jpg', 'praia1foto10.jpg'],
+    ['praiav1foto1.jpg', 'praia1vfoto2.jpg', 'praiav1foto3.jpg', 'praiav1foto4.jpg', 'praiav1foto5.jpg', 'praiav1foto6.jpg', 'praiav1foto7.jpg', 'praiav1foto8.jpg', 'praiav1foto9.jpg', 'praiav1foto10.jpg', 'condominiovfoto1.jpg','condominiovfoto2.jpg','condominiovfoto3.jpg','condominiovfoto4.jpg','condominiovfoto5.jpg'],
+    ['praiav2foto1.jpg', 'praiav2foto2.jpg', 'praiav2foto3.jpg', 'praiav2foto4.jpg', 'praiav2foto5.jpg', 'praiav2foto6.jpg', 'praiav2foto7.jpg', 'praiav2foto8.jpg', 'praiav2foto9.jpg', 'praiav2foto10.jpg', 'praiav2foto11.jpg', 'praiav2foto12.jpg', 'condominiovfoto1.jpg','condominiovfoto2.jpg','condominiovfoto3.jpg','condominiovfoto4.jpg','condominiovfoto5.jpg'],
+    ['praiav3foto1.jpg', 'praiav3foto2.jpg', 'praiav3foto3.jpg', 'praiav3foto4.jpg', 'praiav3foto5.jpg', 'praiav3foto6.jpg', 'praiav3foto7.jpg', 'praiav3foto8.jpg', 'condominiovfoto1.jpg','condominiovfoto2.jpg','condominiovfoto3.jpg','condominiovfoto4.jpg','condominiovfoto5.jpg'],
+    ['praiav4foto1.jpg', 'praiav4foto2.jpg', 'praiav4foto3.jpg', 'praiav4foto4.jpg', 'condominiovfoto1.jpg','condominiovfoto2.jpg','condominiovfoto3.jpg','condominiovfoto4.jpg','condominiovfoto5.jpg'],
   // Adicione outras imagens conforme necessário                        '''''''''''''''''''''''''
 ];
 

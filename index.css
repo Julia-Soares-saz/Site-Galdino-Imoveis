@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #001f3f;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    color:  #FF851B;
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color:  #FF851B;
+  }
+  
+  .landing-page {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #001f3f;
+    color: #fff;
+    border-radius: 0 0 30px 30px;
+  }
+  
+  .landing-page h2 {
+    font-size: 2.8em;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    font-size: 1.5em;
+    font-weight: 300;
+  }
+  
+  .imoveis-section {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .imoveis-section h2 {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #001f3f;
+    margin-bottom: 40px;
+  }
+  
+  .imoveis-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .imovel-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .imovel-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .imovel-box img {
+    width: 100%;
+    height: 200px; /* Define uma altura fixa */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    border-radius: 10px;
+  }
+  
+  .imovel-box h3 {
+    margin: 15px 0;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: #001f3f;
+  }
+  
+  .imovel-box p {
+    text-align: justify;
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .imovel-box button {
+    padding: 10px 25px;
+    background-color:#FF851B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .imovel-box button:hover {
+    background-color:#FFDC00;
+    color: #001f3f;
+  }
+  
+  footer {
+    background-color: #001f3f;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.2em;
+  }
+  
+  footer h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  
+  footer p {
+    margin: 8px 0;
+  }
+  
+  footer p a {
+    color: #FFDC00;
+    text-decoration: none;
+  }
+  
+  footer p a:hover {
+    text-decoration: underline;
+  }
+  /* Estilização do modal para abrir centralizado */
+
+.modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        justify-content: center;
+        align-items: center;
+}
+    
+
+
+
+.modal-content {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.left-arrow {
+    left: -40px;
+}
+
+.right-arrow {
+    right: -40px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+  .close:hover {
+    color: #FF6600;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  #sobreaempresa {
+    padding: 80px 20px;
+    text-align: justify; 
+    background-color: #333;; 
+    color: #fff;
+    border-radius: 30px 30px 0 0; /* Bordas superiores arredondadas */
+}
+
+#sobreaempresa h2 {
+    font-size: 2.8em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#sobreaempresa p {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+

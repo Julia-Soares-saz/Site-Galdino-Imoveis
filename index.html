@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imobiliária Galdino Imóveis</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <h1>Imobiliária Galdino Imóveis</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sp">Imóveis em SP</a></li>
+        <li><a href="#litoral">Imóveis no Litoral</a></li>
+        <li><a href="#sobreaempresa">Sobre a Empresa</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="landing-page">
+    <h2>Bem-vindo à Imobiliária Galdino Imóveis</h2>
+    <p>Encontre os melhores imóveis para compra e aluguel em SP Capital e no Litoral!</p>
+  </section>
+
+  <section id="sp" class="imoveis-section">
+    <h2>Imóveis em São Paulo</h2>
+    <div class="imoveis-grid">
+      <div class="imovel-box">
+        <img src="img/casa1foto1.jpg" alt="Casa 1 em SP">
+        <h3>Apartamento - Jardim Vila Carrão</h3>
+        <p>Descrição: Apartamento de 24 metros, 2 Cômodos e Banheiro.
+           Condomínio: Salão de festas, churrasqueira, playground.</p>
+        <p>Localização: R. das Estrelas, 920 - Jardim Vila Carrão.</p>
+        <p>Valor: R$150 mil.</p>
+        <button onclick="openModal(0)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa2foto1.jpg" alt="Casa 2 em SP">
+        <h3>Apartamento - Residencial Santa Catarina</h3>
+        <p>Descrição: Apartamento com 4 Cômodos e Banheiro.</p>
+        <p>Localização: Rua floro de oliveira, 361 Jd Adriana Guarulhos SP. </p>
+        <p>Valor: R$270 mil. </p>
+        <button onclick="openModal(1)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa3foto1.jpg" alt="Casa 3 em SP">
+        <h3>Terreno 10x25 - Guarulhos SP</h3>
+        <p>Descrição: Terreno 10x25.</p>
+        <p>Localização: Rua do milharau, Jd Guaracy. Guarulhos SP. </p>
+        <p>Valor: R$300 mil.</p>
+        <button onclick="openModal(2)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa4foto1.jpg" alt="Casa 4 em SP">
+        <h3>Casas - Jardim São Martinho</h3>
+        <p> Descrição: Duas Casas contruidas ambas 3 Cômodos, Banheiro e Lavanderia + Salão comercial, 5x25m² com escritura. </p>
+        <p>Localização: Rua goiabeira serrana, jardim São Martinho. </p>
+        <p>Valor: R$350 mil.</p>
+        <button onclick="openModal(3)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa5foto1.jpg" alt="Casa 5 em SP">
+        <h3>Sobrado - Jardim Maia</h3>
+        <p>Descrição: Sobrado de 2 Pavimentos, 2 quartos, Sala de estar, Cozinha americana, Sacada, Garagem e Quintal nós fundos.</p>
+        <p>Localização: Rua Cordilheira do Araripe, Jd. Maia/SP.</p>
+        <p>Valor: R$320 mil.</p>
+        <button onclick="openModal(4)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa6foto1.jpg" alt="Casa 6 em SP">
+        <h3>Sobrado - Vila Seabra </h3>
+        <p>Descrição: Sobrado de 2 Pavimentos, Sala de estar, Cozinha, Sacada, Garagem e Quintal nós fundos</p>
+        <p>Localização: Rua Cururuça, Vila Seabra.</p>
+        <p>Valor: R$320 mil.</p>
+        <button onclick="openModal(5)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa7foto1.jpg" alt="Casa 7 em SP">
+        <h3>Apartamento - Certto Curuça Life</h3>
+        <p>Descrição: Apartamento de   44m2 em Torre - Certto Curuça Life, 1 Vaga no Estacionamento.</p>
+        <p>Localização: Rua malva-isco, 130, Nova Curuça. </p>
+        <p>Valor: R$330 mil.</p>
+        <button onclick="openModal(6)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa8.jpg" alt="Casa 8 em SP">
+        <h3>Casa Térrea - Jardim Maia</h3>
+        <p>Descrição: Casa térrea com 3 cômodos grandes, banheiro e garagem. Com escritura!</p>
+        <p>Localização:Rua Erva do Sereno, Jardim Maia. </p>
+        <p>Valor: R$310mil.</p>
+        <button onclick="openModal(7)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa9.jpg" alt="Casa 9 em SP">
+        <h3>Sobrado - Jardim Helena</h3>
+        <p>Descrição: Sobrado com 3 pavimento, 2 Quartos, Sala, Cozinha, Banheiro, Área livre + Garagem. 6x12m².</p>
+        <p>Localização: Rua Morada do Sol, Jardim Helena.</p>
+        <p>Valor: R$270 mil.</p>
+        <button onclick="openModal(8)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa10.jpg" alt="Casa 10 em SP">
+        <h3>Casa - Jardim Romano</h3>
+        <p>Descrição: Casa com 3 Quartos, Sala, Cozinha, Banheiro, Lavanderia+ Garagem.</p>
+        <p>Localização: Rua Cachoeira De Cairiguaçu, Jardim Romano.</p>
+        <p>Valor: R$300 mil. </p>
+        <button onclick="openModal(9)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa11foto2.jpg" alt="Casa 11 em SP">
+        <h3>Sobrado - Vila Mara</h3>
+        <p>Descrição: Sobrado com 2 Pavimentos, Garagem, 2 Quiartos, Sala de Jantar, 2 Banheiros, Cozinha, Área de Serviço e Área Livre. </p>
+        <p>Localização: Rua Caruru Da Bahia, Vila Mara.</p>
+        <p>Valor: R$700 mil. </p>
+        <button onclick="openModal(10)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa12foto2.jpg" alt="Casa 12 em SP">
+        <h3>Sobrado - Jardim Maia</h3>
+        <p>Descrição: Sobrado com 2 Pavimentos, 5 Cômodos + Lavanderia, Banheiro, Área com Churrasqueira e Banheiro.  </p>
+        <p>Localização: Rua Jose Lopes Afonso 305, Jardim Maia.  </p>
+        <p>Valor: R$600 mil. </p>
+        <button onclick="openModal(11)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa13foto8.jpg" alt="Casa 13 em SP">
+        <h3>Sobrado - Curuça </h3>
+        <p>Descrição: 2 Quartos, Sala, Cozinha, Banheiro, Lavanderia e Garagem. </p>
+        <p>Localização: Rua Favera Pequena, 404, Jardim Luiza, Curuça. </p>
+        <p>Valor: R$170mil. </p>
+        <button onclick="openModal(12)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa14foto2.jpg" alt="Casa 14 em SP">
+        <h3>Sobrado - Parque Paulistano</h3>
+        <p>Descrição: Sobrado com 3 Pavimentos, 2 Suítes, Sala, Cozinha, Banheiro Social, Área de Serviço + Terraço. </p>
+        <p>Localização: Rua Santa Rosa De Lima, 428, Parque Paulistano. </p>
+        <p>Valor: R$900mil. </p>
+        <button onclick="openModal(13)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa15foto2.jpg" alt="Casa 15 em SP">
+        <h3>Sobrado - Jardim Maia</h3>
+        <p>Descrição: Sobrado de 2 Pavimentos, Ampla Garagem e Salão Comercial. </p>
+        <p>Localização: Av. Oliveita Freire, Jardim Maia. </p>
+        <p>Valor: R$750mil. </p>
+        <button onclick="openModal(14)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa16foto1.jpg" alt="Casa 16 em SP">
+        <h3>Sobrado - São Paulo</h3>
+        <p>Descrição: Sobrado de dois pavimentos, sendo duas casas ambas com sala, cozinha, banheiro, área de serviço, 5 quartos.</p>
+        <p>Valor: R$550 mil.</p>
+        <button onclick="openModal(15)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa17foto2.jpg" alt="Casa 17 em SP">
+        <h3>Casa Térrea - Parque Paulistano</h3>
+        <p>Descrição: 5 Cômodos, Corredor lateral, Banheiro, Lavanderia e Garagem. </p>
+        <p>Localização: Rua Silveira Pires, Parque Paulistano. </p>
+        <p>Valor: R$350mil </p>
+        <button onclick="openModal(16)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa18foto5.jpg" alt="Casa 18 em SP">
+        <h3>Sobrado - Nitro Quimica</h3>
+        <p>Descrição: Terreno Amplo com Boa Estrurura.</p>
+        <p>Localização: Rua João Lopes Maciel, Cidade Nitro Química. </p>
+        <p>Valor: R$700mil.</p>
+        <button onclick="openModal(17)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa19foto6.jpg" alt="Casa 19 em SP">
+        <h3>Sobrado - São Paulo</h3>
+        <p>Descrição: Para mais informações sobre o imóvel entrar em contato direta com a Imobiliária.</p>
+        <button onclick="openModal(18)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa20foto12.jpg" alt="Casa 20 em SP">
+        <h3>Casas - Itaim Paulista</h3>
+        <p>Descrição: 2 Casas construidas, Lavanderia e Garagem. 5x25m². </p>
+        <p>Localização: Rua Isabel Morales De Oliveira, Jd.Miragaia, Itaim Paulista. </p>
+        <p>Valor: R$260mil. </p>
+        <button onclick="openModal(19)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa21foto4.jpg" alt="Casa 21 em SP">
+        <h3>Casa - Intanhaem</h3>
+        <p>Descrição: 3 Suites com sacada, Banheiro Social e 5 Vagas para carro. </p>
+        <p>Localização: Intanhaem, Bairro Cibratel.</p>
+        <p>Valor: Entrar em contato direto com a imobiliária. </p>
+        <button onclick="openModal(20)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa22foto1.jpg" alt="Casa 22 em SP">
+        <h3>Sobrado - São Paulo</h3>
+        <p>Descrição: Sobrado com dois Pavimentos e Garagem. 3 Quarto - sendo 1 suíte, lavabo, sacada, cozinha,  banheiro, sala e lavanderia.</p>
+        <p>Valor: R$ 290mil.</p>
+        <button onclick="openModal(21)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa23foto1.jpg" alt="Casa 23 em SP">
+        <h3>Casa Térrea - São Paulo</h3>
+        <p>Descrição: Para mais informações do imóvel como, Localização, Valor e Descrição, entrar em contato direto com Imobiliária.</p>
+        <button onclick="openModal(22)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa24foto10.jpg" alt="Casa 24 em SP">
+        <h3>Casa Residencial/ Comercial - Jardim Maia</h3>
+        <p>Descrição: 2 Quartos, 1 Suite, Cozinha, Banheiro, Lavanderia + Terraço.</p>
+        <p>Localização: AV. Prof Alipio De Barros, Jardim Maia. </p>
+        <p>Valor locação: R$1.900,00.</p>
+        <button onclick="openModal(23)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa25foto7.jpg" alt="Casa 25 em SP">
+        <h3>Condominio - Jardim Noemia</h3>
+        <p>Descrição: Condomínio novo em otimo acabamento. 2 Quartos, Sala, Cozinha, Banheiro e Lavanderia. </p>
+        <p>Localização: Rua Vistosa De Madre De Deus, 769, Jardim Noemia. </p>
+        <p>Valor locação: R$1.340,00. </p>
+        <button onclick="openModal(24)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa26foto2.jpg" alt="Casa 26 em SP">
+        <h3>Casa Comercial - Avenida Oliveira Freire</h3>
+        <p>Descrição: Recepção, 2 Salas, Cozinha, 2 Banheiros e Garagem.</p>
+        <p>Localização: AV. Oliveira Freire, Parque Paulistano. </p>
+        <p>Valor locação: R$3.000,00. </p>
+        <button onclick="openModal(25)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/casa27foto3.jpg" alt="Casa 27 em SP">
+        <h3>Sala Comercial - Avenida Oliveira Freire</h3>
+        <p>Descrição: Sala Comercial + Banheiro e Área Externa. Aproximadamente 100 metros. </p>
+        <p>Localização: AV. Oliveira Freire, Jardim Helena. </p>
+        <p>Valor locação: 1.500,00 </p>
+        <button onclick="openModal(26)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+      <div class="imovel-box">
+        <img src="img/casa28foto1.jpg" alt="Casa 28 em SP">
+        <h3>Apartamento - Parque Paulistano</h3>
+        <p>Descrição: Apartamento com 2 quartos, Sala, cozinha, Banheiro e Área de serviço. Condomínio com churrasqueira, Área kids e Portaria moderna. </p>
+        <p>Localização: Rua Salvador Fernandes Cardia, 1212, Parque Paulistano. </p>
+        <p>Valor locação:R$1.500,00  </p>
+        <button onclick="openModal(27)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+      <div class="imovel-box">
+        <img src="img/casa29foto2.jpg" alt="Casa 29 em SP">
+        <h3>Salão Comercial - Jardim Noemia</h3>
+        <p>Descrição: Salão Comercial 45m² com 2 portas e Banheiro. </p>
+        <p>Localização: Rua Cachoeira De Itaguassava, Jardim Noemia. </p>
+        <p>Valor locação:R$1.200,00  </p>
+        <button onclick="openModal(28)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+      
+
+    
+    </div>
+  </section>
+
+  <section id="litoral" class="imoveis-section">
+    <h2>Imóveis no Litoral</h2>
+    <div class="imoveis-grid">
+      <!--  litoral -->
+      <div class="imovel-box">
+        <img src="img/condominiosfoto1.jpg" alt="Condominio Splendor - Litoral">
+        <h3> Condominio Splendour - Mongaguá</h3>
+        <p>Áreas comuns do Condomínio Splendour.</p>
+        <p>Localização: Av. Gov. Mário Covas Júnior, 410 - Cidade Beira Mar, Mongaguá - SP, 11730-000</p>
+        <button onclick="openModal(29)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/praia1foto1.jpg" alt="Apartamento 1 - Litoral">
+        <h3>Apartamento 164 - Splendour</h3>
+        <p>Splendour - 164 - Torre 2 - Andar Cobertura - 2 Dormitórios, Suíte,Sala, Cozinha e Banheiro - Unidade no último andar com piso em todos os ambientes.</p>
+        <p>Escriturados: Unique, Firenze e Splendour comportam finaciamento bancário.</p>
+        <p>Valor: R$550mil.</p>
+        <button onclick="openModal(30)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+    
+
+      <div class="imovel-box">
+        <img src="img/praiav1foto1.jpg" alt="Apartamento 4 - Litotal">
+        <h3>Apartamento Condominio Viladouro - Mongaguá</h3>
+        <p>Para mais informações sobre o imóvel entrar em contato direto com a Imobiliária.</p>
+        <p>Localização: Av São Paulo 2309 centro Mongaguá Condomínio 890.</p>
+        <button onclick="openModal(31)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/praiav2foto1.jpg" alt="Apartamento 5 - Litotal">
+        <h3>Apartamento Condominio Viladouro - Mongaguá</h3>
+        <p>Para mais informações sobre o imóvel entrar em contato direto com a Imobiliária.</p>
+        <p>Localização: Av São Paulo 2309 centro Mongaguá Condomínio 890.</p>
+        <button onclick="openModal(32)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/praiav3foto8.jpg" alt="Apartamento 6 - Litotal">
+        <h3>Apartamento Condominio Viladouro - Mongaguá</h3>
+        <p>Para mais informações sobre o imóvel entrar em contato direto com a Imobiliária.</p>
+        <p>Localização: Av São Paulo 2309 centro Mongaguá Condomínio 890.</p>
+        <button onclick="openModal(33)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+      <div class="imovel-box">
+        <img src="img/praiav4foto1.jpg" alt="Apartamento 7 - Litotal">
+        <h3>Apartamento Codominio Viladouro - Mongaguá</h3>
+        <p>Para mais informações sobre o imóvel entrar em contato direto com a Imobiliária.</p>
+        <p>Localização: Av São Paulo 2309 centro Mongaguá Condomínio 890.</p>
+        <button onclick="openModal(34)">Ver Mais</button>
+        <a href="https://wa.me/5511975563880" target="_blank">
+            <button>Entre em contato!</button>
+          </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="sobreaempresa" class="landing-page">
+    <h2>Sobre a Galdino Imóveis</h2>
+    <p>A Galdino Imóveis foi fundada em 2018, e desde então se destaca no mercado imobiliário da região. 
+    Localizada na Avenida Oliveira Freire, 1881, nossa missão é ajudar clientes a encontrarem o imóvel ideal, 
+    seja para compra, venda ou locação. Com um time de profissionais experientes e comprometidos, oferecemos um atendimento 
+    personalizado e focado em entender as necessidades de cada cliente.</p>
+    <p>Trabalhamos com uma ampla gama de imóveis, desde apartamentos até casas no litoral, sempre com a transparência 
+    e confiança que você merece. Visite-nos e conheça nossas opções!</p>
+    <p> Localização da imobiliária: </p>
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.3514429877437!2d-46.419764725059395!3d-23.483847678853085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63b9b7107c2d%3A0x56b674cc6f31813!2sAv.%20Oliveira%20Freire%2C%201881%20-%20Parque%20Paulistano%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008080-570!5e0!3m2!1spt-BR!2sbr!4v1729784061593!5m2!1spt-BR!2sbr"
+    width="100%" 
+    height="400" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+   </iframe>
+
+ </section>
+
+
+  <footer id="contato">
+    <h3>Contato</h3>
+    <p>Telefone: (11) 97556-3880</p>
+    <p>Email: Galdinoimoveis@gmail.com</p>
+    <p>WhatsApp: (11) 97556-3880</p>
+  </footer>
+
+  
+<!-- Modal para Visualizar Imagens e Descrição -->
+<div id="imovelModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <img id="modalImage" src="" alt="Imagem do Imóvel">
+        <div class="arrow left-arrow" onclick="prevImage()">&#10094;</div>
+        <div class="arrow right-arrow" onclick="nextImage()">&#10095;</div>
+    </div>
+</div>
+
+   <script src="script.js"></script>
+
+</body>
+</html>

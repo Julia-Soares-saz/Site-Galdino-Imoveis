@@ -27,7 +27,7 @@ const images = [
     ['casa24foto1.jpg', 'casa24foto2.jpg', 'casa24foto3.jpg', 'casa24foto4.jpg', 'casa24foto5.jpg', 'casa24foto6.jpg', 'casa24foto7.jpg', 'casa24foto8.jpg', 'casa24foto9.jpg', 'casa24foto10.jpg'],
     ['casa25foto1.jpg', 'casa25foto2.jpg', 'casa25foto3.jpg', 'casa25foto4.jpg', 'casa25foto5.jpg', 'casa25foto6.jpg', 'casa25foto7.jpg'],
     ['casa26foto1.jpg', 'casa26foto2.jpg', 'casa26foto3.jpg', 'casa26foto4.jpg'],
-    ['casa27foto1.jpg', 'casa27foto2.jpg', 'casa27foto3.jpg', 'casa27foto4.jpg', 'casa27foto5.jpg'],
+    ['casa27foto.jpg','casa27foto1.jpg', 'casa27foto2.jpg', 'casa27foto3.jpg', 'casa27foto4.jpg', 'casa27foto5.jpg'],
     ['casa28foto1.jpg', 'casa28foto2.jpg', 'casa28foto3.jpg', 'casa28foto4.jpg', 'casa28foto5.jpg', 'casa28foto6.jpg', 'casa28foto7.jpg', 'casa28foto8.jpg', 'casa28foto9.jpg'],
     ['casa29foto1.jpg', 'casa29foto2.jpg', 'casa29foto3.jpg', 'casa29foto4.jpg', 'casa29foto5.jpg'],
     ['condominiosfoto1.jpg', 'condominiosfoto2.jpg', 'condominiosfoto3.jpg'],
@@ -36,18 +36,18 @@ const images = [
     ['praiav2foto1.jpg', 'praiav2foto2.jpg', 'praiav2foto3.jpg', 'praiav2foto4.jpg', 'praiav2foto5.jpg', 'praiav2foto6.jpg', 'praiav2foto7.jpg', 'praiav2foto8.jpg', 'praiav2foto9.jpg', 'praiav2foto10.jpg', 'praiav2foto11.jpg', 'praiav2foto12.jpg', 'condominiovfoto1.jpg','condominiovfoto2.jpg','condominiovfoto3.jpg','condominiovfoto4.jpg','condominiovfoto5.jpg'],
     ['praiav3foto1.jpg', 'praiav3foto2.jpg', 'praiav3foto3.jpg', 'praiav3foto4.jpg', 'praiav3foto5.jpg', 'praiav3foto6.jpg', 'praiav3foto7.jpg', 'praiav3foto8.jpg', 'condominiovfoto1.jpg','condominiovfoto2.jpg','condominiovfoto3.jpg','condominiovfoto4.jpg','condominiovfoto5.jpg'],
     ['praiav4foto1.jpg', 'praiav4foto2.jpg', 'praiav4foto3.jpg', 'praiav4foto4.jpg', 'condominiovfoto1.jpg','condominiovfoto2.jpg','condominiovfoto3.jpg','condominiovfoto4.jpg','condominiovfoto5.jpg'],
-  // Adicione outras imagens conforme necessário                        '''''''''''''''''''''''''
+  // Adicionar outras imagens conforme necessário                        '''''''''''''''''''''''''
 ];
 
 function openModal(index) {
     currentModalIndex = index;
     currentImageIndex = 0;
     document.getElementById('modalImage').src = images[index][currentImageIndex];
-    document.getElementById('imovelModal').style.display = 'flex';  // Certifique-se de que o modal aparece
+    document.getElementById('imovelModal').style.display = 'flex';  
 }
 
 function closeModal() {
-    document.getElementById('imovelModal').style.display = 'none';  // Fecha o modal
+    document.getElementById('imovelModal').style.display = 'none';  // Fechar o modal
 }
 
 function nextImage() {

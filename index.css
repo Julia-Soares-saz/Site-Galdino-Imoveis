@@ -15,14 +15,33 @@
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px;
+    background-color: #d3d3d3;
+    color: #333;
+    flex-wrap: wrap; 
   }
   
   header h1 {
-    color:  #FF851B;
-    font-size: 2.5em;
-    font-weight: bold;
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    flex: 1; 
   }
-  
+
+  header img {
+    max-width: 190px; 
+    margin-right: auto; 
+ }
+
+ nav {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+} 
   nav ul {
     list-style-type: none;
     display: flex;
@@ -35,7 +54,7 @@
   }
   
   nav ul li a {
-    color: #f4f4f4;
+    color: #001f3f;
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 500;

@@ -119,8 +119,8 @@
   
   .imovel-box img {
     width: 100%;
-    height: 200px; /* Define uma altura fixa */
-    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+    height: 200px;
+    object-fit: cover; 
     border-radius: 10px;
   }
   

@@ -304,6 +304,139 @@
     width: 100%;
     height: auto;
   }
+.chatbox {
+    width: 90%; /* Ocupa 90% da largura da tela */
+    height: 70%; /* Ocupa 70% da altura da tela */
+    bottom: 15%; /* Ajusta a posição para ficar centralizado verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /*  alinhamento exato ao centro */
+    border-radius: 10px; /* bordas suaves */
+  }
+
+  .chat-header {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .chat-body {
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .chat-footer {
+    padding: 10px;
+  }
+
+  .chat-footer input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .chat-footer button {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .chat-toggle img {
+    width: 50px; /* Reduz o tamanho do botão */
+    height: 50px;
+  }
+
+
 }
+/* Estilo chatbox */
+.chatbox {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 400px; /* Tamanho maior */
+  height: 500px; /* Tamanho maior */
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px; /* Bordas mais suaves */
+  display: none;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  z-index: 1000;
+}
+
+.chat-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px; /* Mais espaçamento */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.chat-header h4 {
+  margin: 0;
+  font-size: 20px; /* Fonte maior */
+}
+
+.chat-close {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.chat-body {
+  padding: 20px;
+  max-height: 350px; /* Espaço maior para mensagens */
+  overflow-y: auto;
+  font-size: 16px;
+  color: #333;
+}
+
+.chat-footer {
+  display: flex;
+  padding: 15px;
+  background-color: #f4f4f4;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.chat-footer input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.chat-footer button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  margin-left: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Botão do chat */
+.chat-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+.chat-toggle img {
+  width: 60px; /* Ícone maior */
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 
 

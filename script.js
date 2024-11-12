@@ -59,4 +59,87 @@ function prevImage() {
     currentImageIndex = (currentImageIndex - 1 + images[currentModalIndex].length) % images[currentModalIndex].length;
     document.getElementById('modalImage').src = images[currentModalIndex][currentImageIndex];
 }
+document.addEventListener('DOMContentLoaded', () => {
+    const chatbox = document.querySelector('.chatbox');
+    const chatToggle = document.querySelector('.chat-toggle');
+    const chatClose = document.querySelector('.chat-close');
+    const chatSend = document.getElementById('chat-send');
+    const chatInput = document.getElementById('chat-input');
+    const chatBody = document.querySelector('.chat-body');
+  
+    let stage = 0; // Controla o fluxo de mensagens
+    let clientName = ''; // Armazena o nome do cliente
+    let serviceOption = ''; // Armazena a opção escolhida pelo cliente
+  
+    const whatsappNumber = "5511975563880"; 
+  
+    chatToggle.addEventListener('click', () => {
+      chatbox.style.display = 'flex';
+      chatToggle.style.display = 'none';
+    });
+  
+    chatClose.addEventListener('click', () => {
+      chatbox.style.display = 'none';
+      chatToggle.style.display = 'block';
+    });
+  
+    chatSend.addEventListener('click', handleChat);
+    chatInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') handleChat();
+    });
+  
+    function handleChat() {
+      const message = chatInput.value.trim();
+      if (!message) return;
+  
+      chatBody.innerHTML += `<p><strong>Você:</strong> ${message}</p>`;
+      chatInput.value = '';
+  
+      if (stage === 0) {
+        clientName = message;
+        chatBody.innerHTML += `<p>Olá, ${clientName}! Por favor, escolha uma das opções abaixo:</p>
+          <p>1. Locação de Imóvel</p>
+          <p>2. Compra de Imóvel</p>
+          <p>3. Outras Informações</p>`;
+        stage = 1;
+      } else if (stage === 1) {
+        if (['1', '2', '3'].includes(message)) {
+          serviceOption = getOptionText(message);
+          chatBody.innerHTML += `<p>Ótimo! Vou te direcionar para o WhatsApp da Galdino Imóveis com essa informação.</p>`;
+          redirectToWhatsApp(clientName, serviceOption);
+        } else {
+          chatBody.innerHTML += `<p>Por favor, escolha uma opção válida (1, 2 ou 3).</p>`;
+        }
+      }
+      chatBody.scrollTop = chatBody.scrollHeight; // Scroll para última mensagem
+    }
+  
+    function getOptionText(option) {
+      switch (option) {
+        case '1': return 'Locação de Imóvel';
+        case '2': return 'Compra de Imóvel';
+        case '3': return 'Outras Informações';
+        default: return '';
+      }
+    }
+  
+    function redirectToWhatsApp(name, option) {
+      const whatsappLink = `https://wa.me/${whatsappNumber}?text=Olá, meu nome é ${name}. Estou interessado em ${option}.`;
+      setTimeout(() => {
+        window.open(whatsappLink, '_blank');
+        resetChat();
+      }, 2000);
+    }
+  
+    function resetChat() {
+      stage = 0;
+      clientName = '';
+      serviceOption = '';
+      chatBody.innerHTML = `<p>Olá! 👋</p>
+        <p>Bem-vindo à Galdino Imóveis. Qual o seu nome?</p>`;
+    }
+  });
+  
+
+
 

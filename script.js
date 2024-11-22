@@ -37,7 +37,7 @@ const images = [
     ['praiav3foto1.jpg', 'praiav3foto2.jpg', 'praiav3foto3.jpg', 'praiav3foto4.jpg', 'praiav3foto5.jpg', 'praiav3foto6.jpg', 'praiav3foto7.jpg', 'praiav3foto8.jpg', 'condominiovfoto1.jpg','condominiovfoto2.jpg','condominiovfoto3.jpg','condominiovfoto4.jpg','condominiovfoto5.jpg'],
     ['praiav4foto1.jpg', 'praiav4foto2.jpg', 'praiav4foto3.jpg', 'praiav4foto4.jpg', 'condominiovfoto1.jpg','condominiovfoto2.jpg','condominiovfoto3.jpg','condominiovfoto4.jpg','condominiovfoto5.jpg'],
     ['casa30foto1.jpg','casa30foto2.jpg','casa30foto3.jpg','casa30foto4.jpg','casa30foto5.jpg','casa30foto6.jpg','casa30foto7.jpg','casa30foto8.jpg','casa30foto9.jpg','casa30foto10.jpg','casa30foto11.jpg','casa30foto12.jpg','casa30foto13.jpg'],
-    ['casa31foto1.jpg','casa31foto2.jpg','casa31foto3.jpg','casa31foto4.jpg','casa31foto5.jpg','casa31foto6.jpg'],
+    ['casa31foto1.jpg','casa31foto2.jpg','casa31foto3.jpg','casa31foto4.jpg','casa31foto5.jpg'],
     ['casa32foto1.jpg','casa32foto2.jpg','casa32foto3.jpg','casa32foto4.jpg','casa32foto5.jpg','casa32foto6.jpg', 'casa32foto7.jpg'],
     ['casa33foto1.jpg','casa33foto2.jpg','casa33foto3.jpg','casa33foto4.jpg','casa33foto5.jpg','casa33foto6.jpg', 'casa33foto7.jpg'],
     

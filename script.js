@@ -3,7 +3,6 @@ let currentModalIndex = 0;
 const images = [
     ['casa1foto1.jpg', 'casa1foto2.jpg', 'casa1foto3.jpg','casa1foto4.jpg','casa1foto5.jpg','casa1foto6.jpg','casa1foto7.jpg','casa1foto8.jpg','casa1foto9.jpg','casa1foto10.jpg,','casa1foto11.jpg'],  
     ['casa2foto1.jpg', 'casa2foto2.jpg', 'casa2foto3.jpg', 'casa2foto4.jpg','casa2foto5.jpg','casa2foto6.jpg','casa2foto7.jpg','casa2foto8.jpg','casa2foto9.jpg','casa2foto10.jpg','casa2foto11.jpg','casa2foto12.jpg'],  
-    ['casa3foto1.jpg', 'casa3foto2.jpg', 'casa3foto3.jpg','casa3foto4.jpg','casa3foto5.jpg'],  
     ['casa4foto1.jpg', 'casa4foto2.jpg', 'casa4foto3.jpg', 'casa4foto4.jpg', 'casa4foto5.jpg', 'casa4foto6.jpg', 'casa4foto7.jpg', 'casa4foto8.jpg', 'casa4foto9.jpg', 'casa4foto10.jpg', 'casa4foto11.jpg'],
     ['casa5foto1.jpg', 'casa5foto2.jpg', 'casa5foto3.jpg', 'casa5foto4.jpg', 'casa5foto5.jpg', 'casa5foto6.jpg', 'casa5foto7.jpg', 'casa5foto8.jpg', 'casa5foto9.jpg', 'casa5foto10.jpg', 'casa5foto11.jpg', 'casa5foto12.jpg', 'casa5foto13.jpg', 'casa5foto14.jpg', 'casa5foto15.jpg', 'casa5foto16.jpg', 'casa5foto17.jpg'],
     ['casa6foto1.jpg', 'casa6foto2.jpg', 'casa6foto3.jpg', 'casa6foto4.jpg', 'casa6foto5.jpg', 'casa6foto6.jpg', 'casa6foto7.jpg', 'casa6foto8.jpg', 'casa6foto9.jpg', 'casa6foto10.jpg', 'casa6foto11.jpg', 'casa6foto12.jpg', 'casa6foto13.jpg', 'casa6foto14.jpg', 'casa6foto15.jpg'],

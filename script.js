@@ -35,7 +35,10 @@ const images = [
     ['casa33foto1.jpg','casa33foto2.jpg','casa33foto3.jpg','casa33foto4.jpg','casa33foto5.jpg','casa33foto6.jpg', 'casa33foto7.jpg'],
     ['casa34foto1.jpg','casa34foto2.jpg','casa34foto3.jpg','casa34foto4.jpg','casa34foto5.jpg','casa34foto6.jpg', 'casa34foto7.jpg', 'casa34foto8.jpg', 'casa34foto9.jpg', 'casa34foto10.jpg', 'casa34foto11.jpg', 'casa34foto12.jpg'],
     ['casa35foto1.jpg','casa35foto2.jpg','casa35foto3.jpg','casa35foto4.jpg','casa35foto5.jpg','casa35foto6.jpg', 'casa35foto7.jpg', 'casa35foto8.jpg', 'casa35foto9.jpg', 'casa35foto10.jpg'],
-    
+    ['casa36foto1.jpg','casa36foto2.jpg','casa36foto3.jpg','casa36foto4.jpg','casa36foto5.jpg','casa36foto6.jpg', 'casa36foto7.jpg', 'casa36foto8.jpg', 'casa36foto9.jpg', 'casa36foto10.jpg', 'casa36foto11.jpg'],
+    ['casa37foto1.jpg','casa37foto2.jpg','casa37foto3.jpg','casa37foto4.jpg','casa37foto5.jpg','casa37foto6.jpg', 'casa37foto7.jpg', 'casa37foto8.jpg', 'casa37foto9.jpg', 'casa37foto10.jpg', 'casa37foto11.jpg'],
+    ['casa38foto1.jpg','casa38foto2.jpg','casa38foto3.jpg','casa38foto4.jpg','casa38foto5.jpg','casa38foto6.jpg'],
+    ['casa39foto1.jpg','casa39foto2.jpg','casa39foto3.jpg','casa39foto4.jpg','casa39foto5.jpg','casa39foto6.jpg','casa39foto7.jpg','casa39foto8.jpg'],
     
   // Adicionar outras imagens conforme necessário                        '''''''''''''''''''''''''
 ];

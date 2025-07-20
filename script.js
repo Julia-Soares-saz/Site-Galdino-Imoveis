@@ -42,7 +42,7 @@ const images = [
     ['casa40foto9.jpg','casa40foto2.jpg','casa40foto3.jpg','casa40foto4.jpg','casa40foto5.jpg','casa40foto6.jpg','casa40foto7.jpg','casa40foto8.jpg','casa40foto10.jpg','casa40foto11.jpg','casa40foto12.jpg','casa40foto13.jpg'],
     ['casa41foto1.jpg','casa41foto2.jpg','casa41foto3.jpg','casa41foto4.jpg','casa41foto5.jpg','casa41foto6.jpg','casa41foto7.jpg','casa41foto8.jpg','casa41foto10.jpg','casa41foto12.jpg','casa41foto13.jpg','casa41foto14.jpg','casa41foto15.jpg','casa41foto16.jpg','casa41foto17.jpg','casa41foto18.jpg','casa41foto19.jpg','casa41foto20.jpg','casa41foto21.jpg','casa41foto22.jpg','casa41foto23.jpg','casa41foto24.jpg','casa41foto25.jpg','casa41foto26.jpg','casa41foto27.jpg','casa41foto28.jpg','casa41foto29.jpg','casa41foto30.jpg'],
     ['casa100foto1.jpeg','casa101foto2.jpeg','casa102foto3.jpeg','casa104foto4.jpeg','casa105foto5.jpeg','casa106foto6.jpeg','casa107foto7.jpeg','casa108foto8.jpeg','casa109foto9.jpeg','casa110foto10.jpeg','casa111foto11.jpeg','casa112foto12.jpeg'],
-    
+    ['Nitro Química0001.jpeg','Nitro Química0002.jpeg','Nitro Química0003.jpeg','Nitro Química0004.jpeg','Nitro Química0005.jpeg','Nitro Química0006.jpeg','Nitro Química0007.jpeg','Nitro Química0008.jpeg','Nitro Química0009.jpeg','Nitro Química00010.jpeg','Nitro Química00011.jpeg','Nitro Química00012.jpeg','Nitro Química00013.jpeg','Nitro Química00014.jpeg'],
   // Adicionar outras imagens conforme necessário                        '''''''''''''''''''''''''
 ];
 

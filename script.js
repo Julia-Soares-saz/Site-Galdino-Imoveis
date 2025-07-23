@@ -19,7 +19,7 @@ const images = [
     ['casa18foto1.jpg', 'casa18foto2.jpg', 'casa18foto3.jpg', 'casa18foto4.jpg', 'casa18foto5.jpg', 'casa18foto6.jpg', 'casa18foto7.jpg', 'casa18foto8.jpg', 'casa18foto9.jpg', 'casa18foto10.jpg'],
     ['casa20foto1.jpg', 'casa20foto2.jpg', 'casa20foto3.jpg', 'casa20foto4.jpg', 'casa20foto5.jpg', 'casa20foto6.jpg', 'casa20foto7.jpg', 'casa20foto8.jpg', 'casa20foto9.jpg', 'casa20foto10.jpg', 'casa20foto11.jpg', 'casa20foto12.jpg'],
     ['casa21foto1.jpg', 'casa21foto2.jpg', 'casa21foto3.jpg', 'casa21foto4.jpg', 'casa21foto5.jpg', 'casa21foto6.jpg', 'casa21foto7.jpg', 'casa21foto8.jpg', 'casa21foto9.jpg', 'casa21foto10.jpg', 'casa21foto11.jpg', 'casa21foto12.jpg', 'casa21foto13.jpg'],
-    ['casa22foto1.jpg', 'casa22foto2.jpg', 'casa22foto3.jpg', 'casa22foto4.jpg'],
+    
     ['casa24foto1.jpg', 'casa24foto2.jpg', 'casa24foto3.jpg', 'casa24foto4.jpg', 'casa24foto5.jpg', 'casa24foto6.jpg', 'casa24foto7.jpg', 'casa24foto8.jpg', 'casa24foto9.jpg', 'casa24foto10.jpg'],
     ['casa25foto1.jpg', 'casa25foto2.jpg', 'casa25foto3.jpg', 'casa25foto4.jpg', 'casa25foto5.jpg', 'casa25foto6.jpg', 'casa25foto7.jpg'],
     ['casa27foto.jpg','casa27foto1.jpg', 'casa27foto2.jpg', 'casa27foto3.jpg', 'casa27foto4.jpg', 'casa27foto5.jpg'],

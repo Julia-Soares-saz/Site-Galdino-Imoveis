@@ -55,7 +55,7 @@ const images = [
     ['Casa JD Hekena.jpeg','Casa JD Helene (1).jpeg','Casa JD Helene (2).jpeg','Casa JD Helene (3).jpeg','Casa JD Helene (4).jpeg','Casa JD Helene (5).jpeg','Casa JD Helene (6).jpeg','Casa JD Helene (7).jpeg','Casa JD Helene (8).jpeg','Casa JD Helene (9).jpeg','Casa JD Helene (10).jpeg','Casa JD Helene (11).jpeg','Casa JD Helene (12).jpeg','Casa JD Helene (13).jpeg','Casa JD Helene (14).jpeg','Casa JD Helene (15).jpeg','Casa JD Helene (16).jpeg','Casa JD Helene (17).jpeg','Casa JD Helene (18).jpeg','Casa JD Helene (19).jpeg','Casa JD Helene (20).jpeg','Casa JD Helene (21).jpeg','Casa JD Helene (22).jpeg','Casa JD Helene (23).jpeg','Casa JD Helene (24).jpeg','Casa JD Helene (25).jpeg'],
     ['casa-tupinamba (1).jpeg','casa-tupinamba (2).jpeg','casa-tupinamba (3).jpeg','casa-tupinamba (4).jpeg','casa-tupinamba (5).jpeg','casa-tupinamba (6).jpeg','casa-tupinamba (7).jpeg','casa-tupinamba (8).jpeg','casa-tupinamba (9).jpeg','casa-tupinamba (10).jpeg','casa-tupinamba (11).jpeg'],
    
-   ],
+   ];
    
     // Adicionar outras imagens conforme necessário                        '''''''''''''''''''''''''
 

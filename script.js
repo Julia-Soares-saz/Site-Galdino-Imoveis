@@ -51,9 +51,14 @@ const images = [
     ['sobrado-vila feliz-capa.jpeg','sobrado-vila-feliz (1).jpeg','sobrado-vila-feliz (2).jpeg','sobrado-vila-feliz (3).jpeg','sobrado-vila-feliz (4).jpeg','sobrado-vila-feliz (5).jpeg','sobrado-vila-feliz (6).jpeg','sobrado-vila-feliz (7).jpeg','sobrado-vila-feliz (8).jpeg','sobrado-vila-feliz (9).jpeg','sobrado-vila-feliz (10).jpeg','sobrado-vila-feliz (11).jpeg','sobrado-vila-feliz (12).jpeg','sobrado-vila-feliz (13).jpeg'],
     [''],
     ['Sobrado com 2 casa-capa.jpeg','Sobrado com 2 casa (1).jpeg','Sobrado com 2 casa (2).jpeg','Sobrado com 2 casa (3).jpeg','Sobrado com 2 casa (4).jpeg','Sobrado com 2 casa (5).jpeg','Sobrado com 2 casa (6).jpeg','Sobrado com 2 casa (7).jpeg','Sobrado com 2 casa (8).jpeg','Sobrado com 2 casa (8).jpeg','Sobrado com 2 casa (10).jpeg','Sobrado com 2 casa (11).jpeg','Sobrado com 2 casa (12).jpeg'],
-['CASA GEMINADA.jpeg','CASA GEMINADA (2).jpeg','CASA GEMINADA (3).jpeg','CASA GEMINADA (4).jpeg','CASA GEMINADA (5).jpeg','CASA GEMINADA (6).jpeg','CASA GEMINADA (7).jpeg','CASA GEMINADA (8).jpeg','CASA GEMINADA (9).jpeg','CASA GEMINADA (10).jpeg','CASA GEMINADA (11).jpeg','CASA GEMINADA (12).jpeg','CASA GEMINADA (13).jpeg','CASA GEMINADA (14).jpeg','CASA GEMINADA (15).jpeg','CASA GEMINADA (16).jpeg'],
+    ['CASA GEMINADA.jpeg','CASA GEMINADA (2).jpeg','CASA GEMINADA (3).jpeg','CASA GEMINADA (4).jpeg','CASA GEMINADA (5).jpeg','CASA GEMINADA (6).jpeg','CASA GEMINADA (7).jpeg','CASA GEMINADA (8).jpeg','CASA GEMINADA (9).jpeg','CASA GEMINADA (10).jpeg','CASA GEMINADA (11).jpeg','CASA GEMINADA (12).jpeg','CASA GEMINADA (13).jpeg','CASA GEMINADA (14).jpeg','CASA GEMINADA (15).jpeg','CASA GEMINADA (16).jpeg'],
+    ['Casa JD Hekena.jpeg','Casa JD Helene (1).jpeg','Casa JD Helene (2).jpeg','Casa JD Helene (3).jpeg','Casa JD Helene (4).jpeg','Casa JD Helene (5).jpeg','Casa JD Helene (6).jpeg','Casa JD Helene (7).jpeg','Casa JD Helene (8).jpeg','Casa JD Helene (9).jpeg','Casa JD Helene (10).jpeg','Casa JD Helene (11).jpeg','Casa JD Helene (12).jpeg','Casa JD Helene (13).jpeg','Casa JD Helene (14).jpeg','Casa JD Helene (15).jpeg','Casa JD Helene (16).jpeg','Casa JD Helene (17).jpeg','Casa JD Helene (18).jpeg','Casa JD Helene (19).jpeg','Casa JD Helene (20).jpeg','Casa JD Helene (21).jpeg','Casa JD Helene (22).jpeg','Casa JD Helene (23).jpeg','Casa JD Helene (24).jpeg','Casa JD Helene (25).jpeg'],
+   
+   
+   
+   
     // Adicionar outras imagens conforme necessário                        '''''''''''''''''''''''''
-];
+
 
 function openModal(index) {
     currentModalIndex = index;

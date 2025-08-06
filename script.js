@@ -56,7 +56,8 @@ const images = [
     ['casa-tupinamba (1).jpeg','casa-tupinamba (2).jpeg','casa-tupinamba (3).jpeg','casa-tupinamba (4).jpeg','casa-tupinamba (5).jpeg','casa-tupinamba (6).jpeg','casa-tupinamba (7).jpeg','casa-tupinamba (8).jpeg','casa-tupinamba (9).jpeg','casa-tupinamba (10).jpeg','casa-tupinamba (11).jpeg'],
     ['Salão-VilaMara.jpeg','Salão-VilaMara (1).jpeg','Salão-VilaMara (2).jpeg','Salão-VilaMara (3).jpeg','Salão-VilaMara (4).jpeg','Salão-VilaMara (5).jpeg'],
     ['Casa-JardimMaia (1).jpeg','Casa-JardimMaia (2).jpeg','Casa-JardimMaia (3).jpeg','Casa-JardimMaia (4).jpeg','Casa-JardimMaia (5).jpeg','Casa-JardimMaia (6).jpeg','Casa-JardimMaia (7).jpeg','Casa-JardimMaia (8).jpeg','Casa-JardimMaia (9).jpeg','Casa-JardimMaia (10).jpeg'],
-   ];
+    ['Salão comercia-VilaMara.jpeg','Salão comercia-VilaMara (1).jpeg','Salão comercia-VilaMara (2).jpeg','Salão comercia-VilaMara (3).jpeg','Salão comercia-VilaMara (4).jpeg','Salão comercia-VilaMara (5).jpeg','Salão comercia-VilaMara (6).jpeg','Salão comercia-VilaMara (7).jpeg','Salão comercia-VilaMara (8).jpeg','Salão comercia-VilaMara (9).jpeg','Salão comercia-VilaMara (10).jpeg','Salão comercia-VilaMara (11).jpeg','Salão comercia-VilaMara (12).jpeg'], 
+  ];
    
     // Adicionar outras imagens conforme necessário                        '''''''''''''''''''''''''
 

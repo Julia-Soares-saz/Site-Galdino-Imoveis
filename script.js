@@ -80,7 +80,11 @@ const images = [
     [''],
     [''],
     [''],
-    
+    [''],
+    [''],
+    [''],
+    [''],
+    [''],
     ['VENDE Amplo sobrado.jpeg','VENDE Amplo sobrado (1).jpeg','VENDE Amplo sobrado (2).jpeg','VENDE Amplo sobrado (3).jpeg','VENDE Amplo sobrado (4).jpeg','VENDE Amplo sobrado (5).jpeg','VENDE Amplo sobrado (6).jpeg','VENDE Amplo sobrado (7).jpeg','VENDE Amplo sobrado (8).jpeg','VENDE Amplo sobrado (9).jpeg','VENDE Amplo sobrado (10).jpeg','VENDE Amplo sobrado (11).jpeg','VENDE Amplo sobrado (12).jpeg','VENDE Amplo sobrado (13).jpeg','VENDE Amplo sobrado (14).jpeg','VENDE Amplo sobrado (15).jpeg','VENDE Amplo sobrado (16).jpeg','VENDE Amplo sobrado (17).jpeg','VENDE Amplo sobrado (18).jpeg','VENDE Amplo sobrado (19).jpeg','VENDE Amplo sobrado (20).jpeg','VENDE Amplo sobrado (11).jpeg'],
 
 ]

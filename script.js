@@ -8,7 +8,7 @@ const images = [
     ['casa7foto1.jpg', 'casa7foto2.jpg', 'casa7foto3.jpg', 'casa7foto4.jpg', 'casa7foto5.jpg', 'casa7foto6.jpg', 'casa7foto7.jpg', 'casa7foto8.jpg', 'casa7foto9.jpg', 'casa7foto10.jpg', 'casa7foto11.jpg', 'casa7foto12.jpg', 'casa7foto13.jpg', 'casa7foto14.jpg', 'casa7foto15.jpg', 'casa7foto16.jpg', 'casa7foto17.jpg'],
     ['casa8.jpg'],
     [''],
-   [''],
+    [''],
     ['casa11foto1.jpg', 'casa11foto2.jpg', 'casa11foto3.jpg', 'casa11foto4.jpg', 'casa11foto5.jpg', 'casa11foto6.jpg', 'casa11foto7.jpg', 'casa11foto8.jpg', 'casa11foto9.jpg', 'casa11foto10.jpg', 'casa11foto11.jpg'],
     ['casa12foto1.jpg', 'casa12foto2.jpg', 'casa12foto3.jpg', 'casa12foto4.jpg', 'casa12foto5.jpg', 'casa12foto6.jpg', 'casa12foto7.jpg', 'casa12foto8.jpg', 'casa12foto9.jpg', 'casa12foto10.jpg', 'casa12foto11.jpg'],
     ['casa14foto1.jpg', 'casa14foto2.jpg', 'casa14foto3.jpg', 'casa14foto4.jpg', 'casa14foto5.jpg', 'casa14foto6.jpg', 'casa14foto7.jpg', 'casa14foto8.jpg', 'casa14foto9.jpg', 'casa14foto10.jpg', 'casa14foto11.jpg', 'casa14foto12.jpg'],
@@ -70,6 +70,17 @@ const images = [
     ['APARTAMENTO NO JARAGUA.jpeg','APARTAMENTO NO JARAGUA (1).jpeg','APARTAMENTO NO JARAGUA (2).jpeg','APARTAMENTO NO JARAGUA (3).jpeg','APARTAMENTO NO JARAGUA (4).jpeg','APARTAMENTO NO JARAGUA (5).jpeg','APARTAMENTO NO JARAGUA (6).jpeg','APARTAMENTO NO JARAGUA (7).jpeg','APARTAMENTO NO JARAGUA (8).jpeg','APARTAMENTO NO JARAGUA (9).jpeg','APARTAMENTO NO JARAGUA (10).jpeg','APARTAMENTO NO JARAGUA (11).jpeg','APARTAMENTO NO JARAGUA (12).jpeg','APARTAMENTO NO JARAGUA (13).jpeg','APARTAMENTO NO JARAGUA (14).jpeg','APARTAMENTO NO JARAGUA (15).jpeg','APARTAMENTO NO JARAGUA (16).jpeg','APARTAMENTO NO JARAGUA (17).jpeg','APARTAMENTO NO JARAGUA (18).jpeg','APARTAMENTO NO JARAGUA (19).jpeg','APARTAMENTO NO JARAGUA (20).jpeg','APARTAMENTO NO JARAGUA (21).jpeg'],
     ['Salão comercial-Jardim Maia.jpeg','Salão comercial-Jardim Maia (1).jpeg','Salão comercial-Jardim Maia (2).jpeg','Salão comercial-Jardim Maia (3).jpeg','Salão comercial-Jardim Maia (4).jpeg','Salão comercial-Jardim Maia (5).jpeg','Salão comercial-Jardim Maia (6).jpeg','Salão comercial-Jardim Maia (7).jpeg','Salão comercial-Jardim Maia (8).jpeg','Salão comercial-Jardim Maia (9).jpeg','Salão comercial-Jardim Maia (10).jpeg','Salão comercial-Jardim Maia (11).jpeg','Salão comercial-Jardim Maia (12).jpeg','Salão comercial-Jardim Maia (13).jpeg','Salão comercial-Jardim Maia (14).jpeg','Salão comercial-Jardim Maia (15).jpeg','Salão comercial-Jardim Maia (16).jpeg','Salão comercial-Jardim Maia (17).jpeg','Salão comercial-Jardim Maia (18).jpeg','Salão comercial-Jardim Maia (19).jpeg','Salão comercial-Jardim Maia (20).jpeg','Salão comercial-Jardim Maia (21).jpeg','Salão comercial-Jardim Maia (22).jpeg'],
     ['Terreno Amplo.jpeg','Terreno Amplo (1).jpeg','Terreno Amplo (2).jpeg','Terreno Amplo (3).jpeg','Terreno Amplo (4).jpeg','Terreno Amplo (5).jpeg','Terreno Amplo (6).jpeg'],
+    [''],
+    [''],
+    [''],
+    [''],
+    [''],
+    [''],
+    [''],
+    [''],
+    [''],
+    [''],
+    
     ['VENDE Amplo sobrado.jpeg','VENDE Amplo sobrado (1).jpeg','VENDE Amplo sobrado (2).jpeg','VENDE Amplo sobrado (3).jpeg','VENDE Amplo sobrado (4).jpeg','VENDE Amplo sobrado (5).jpeg','VENDE Amplo sobrado (6).jpeg','VENDE Amplo sobrado (7).jpeg','VENDE Amplo sobrado (8).jpeg','VENDE Amplo sobrado (9).jpeg','VENDE Amplo sobrado (10).jpeg','VENDE Amplo sobrado (11).jpeg','VENDE Amplo sobrado (12).jpeg','VENDE Amplo sobrado (13).jpeg','VENDE Amplo sobrado (14).jpeg','VENDE Amplo sobrado (15).jpeg','VENDE Amplo sobrado (16).jpeg','VENDE Amplo sobrado (17).jpeg','VENDE Amplo sobrado (18).jpeg','VENDE Amplo sobrado (19).jpeg','VENDE Amplo sobrado (20).jpeg','VENDE Amplo sobrado (11).jpeg'],
 
 ]

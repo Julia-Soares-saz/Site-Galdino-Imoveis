@@ -33,7 +33,7 @@ const images = [
     ['casa33foto1.jpg','casa33foto2.jpg','casa33foto3.jpg','casa33foto4.jpg','casa33foto5.jpg','casa33foto6.jpg', 'casa33foto7.jpg'],
     ['casa34foto1.jpg','casa34foto2.jpg','casa34foto3.jpg','casa34foto4.jpg','casa34foto5.jpg','casa34foto6.jpg', 'casa34foto7.jpg', 'casa34foto8.jpg', 'casa34foto9.jpg', 'casa34foto10.jpg', 'casa34foto11.jpg', 'casa34foto12.jpg'],
     ['casa35foto1.jpg','casa35foto2.jpg','casa35foto3.jpg','casa35foto4.jpg','casa35foto5.jpg','casa35foto6.jpg', 'casa35foto7.jpg', 'casa35foto8.jpg', 'casa35foto9.jpg', 'casa35foto10.jpg'],
-    ['casa38foto1.jpg','casa38foto2.jpg','casa38foto3.jpg','casa38foto4.jpg','casa38foto5.jpg','casa38foto6.jpg'],
+    ['modal 36'],
     ['casa39foto1.jpg','casa39foto2.jpg','casa39foto3.jpg','casa39foto4.jpg','casa39foto5.jpg','casa39foto6.jpg','casa39foto7.jpg','casa39foto8.jpg'],
     ['casa40foto9.jpg','casa40foto2.jpg','casa40foto3.jpg','casa40foto4.jpg','casa40foto5.jpg','casa40foto6.jpg','casa40foto7.jpg','casa40foto8.jpg','casa40foto10.jpg','casa40foto11.jpg','casa40foto12.jpg','casa40foto13.jpg'],
     ['Sobrado com 2 casa-capa.jpeg','Sobrado com 2 casa (1).jpeg','Sobrado com 2 casa (2).jpeg','Sobrado com 2 casa (3).jpeg','Sobrado com 2 casa (4).jpeg','Sobrado com 2 casa (5).jpeg','Sobrado com 2 casa (6).jpeg','Sobrado com 2 casa (7).jpeg','Sobrado com 2 casa (8).jpeg','Sobrado com 2 casa (8).jpeg','Sobrado com 2 casa (10).jpeg','Sobrado com 2 casa (11).jpeg','Sobrado com 2 casa (12).jpeg'],
